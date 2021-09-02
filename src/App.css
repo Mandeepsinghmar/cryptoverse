@@ -1,7 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+/* :root{
+    text-primary:#000;
+    #F9F9F9
+} */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:800px){
+    .App{
+        flex-direction: column;
+    }
+    .navbar{
+        flex: 1;
+    }
+    .main{
+        flex: 1;
+    }
 }
